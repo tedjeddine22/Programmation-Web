@@ -1,0 +1,121 @@
+#table_container {
+    font-family: Calibri, sans-serif;
+    width: max-content; 
+    margin: 0 auto;     
+}
+
+table {
+    margin: 0 auto; 
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+th {
+    background-color: blue; 
+    color: white;
+    text-align: center !important;
+}
+
+.col_number {
+    width: 100px;
+    text-align: center;
+}
+
+.col_text {
+    width: 350px;
+    text-align: left;
+}
+
+#container_summary {
+    background-color: gainsboro;        
+    display: flex;
+    margin-top: 2px;
+}
+
+#p1{
+    margin-left: 2%;
+}
+
+#p3{
+    margin-left: 75%;
+}
+
+#form_add_container {
+    font-family: Calibri, sans-serif;
+    width: 450px;
+    margin: 30px auto;
+    padding: 20px 25px;
+    background: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.15);
+}
+
+/* Align label + input like the screenshot */
+.form_label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form_label input { 
+    padding: 4px 20px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    margin-left: 4px;
+}
+
+/* Button container */
+.form_btns {
+    margin-top: 20px;
+    gap: 15px;
+}
+
+/* BUTTONS MATCH EXISTING STYLE */
+.btn-blue {
+    background-color: blue;
+    color: white;
+    border: 3px solid #463ec2;
+    padding: 7px 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-add {
+    background-color: rgb(21, 179, 21);   
+    color: white;
+    border: none;
+    padding: 13px 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-del {
+    background-color: red;   
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-consol {
+    background-color: rgb(192, 134, 25);  
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#container_btn {
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+

@@ -1,0 +1,35 @@
+.table_container {
+  width: 80%;
+  margin: 180px 150px;
+  font-family:  Calibri;
+}
+
+/* Bordure du tableau */
+table {
+  border: 1px solid #5a5353;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* En-tête (ligne bleue) */
+th {
+  background-color: #017eba;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid #c4c4c4;
+}
+.col_number {
+  text-align: center;
+}
+.col_chkbox {
+  text-align: center;
+}
+.col_text{
+  text-align: left;
+}
