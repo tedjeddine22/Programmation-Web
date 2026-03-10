@@ -39,7 +39,5 @@ L'objectif de ce projet est de pratiquer les concepts fondamentaux du **dévelop
 
 ## 📌 Remarque
 
-## 📌 Remarque
-
 Ce repository regroupe les différents travaux pratiques réalisés pendant l’apprentissage du développement web.  
 Il a pour objectif de mettre en pratique les concepts fondamentaux tels que **HTML, CSS, JavaScript, PHP et les bases de données**, ainsi que de renforcer les compétences en programmation et en conception d'applications web.
